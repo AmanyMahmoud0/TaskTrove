@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskTrove </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Permanent+Marker&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <section class="container">
+    <div class="task-manager">
+      <h1>TaskTrove</h1>
+      <div class="header">
+        <input name="newTask" type="text" id="taskInput" placeholder="Add new task...">
+        <button class="addTask" onclick="addTask()">Add</button>
+      </div>
+      <div class="tasks">
+        <section class="todo-tasks">
+          <h2>To-Do Tasks</h2>
+          <ul id="todoList"></ul>
+        </section>
+        <section class="finished-tasks">
+          <h2>Finished Tasks</h2>
+          <ul id="finishedList"></ul>
+        </section>
+      </div>
+    </div>
+  </section>
+  <script src="js/js.js"></script>
+</body>
+
+</html>
